@@ -1,5 +1,6 @@
 h2 {
-    color:blue
+    color:blue;
+    font-family: 'cinzel', sans-serif;
 }
 /* cinzel-700 - latin */
 @font-face {

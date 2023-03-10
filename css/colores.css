@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+.box-style{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+
+}
+.box-darkcyan {
+    background-color:darkcyan;
+   
+}
+.box-goldenrod{
+    background-color: goldenrod;
+}
+.box-mediumblue{
+    background-color:mediumblue;
+   
+}
+.box-5-46-46{
+    background-color:rgb(5, 46, 46);
+}
+.box-74-182-74{
+    background-color: rgb(74, 182, 74);
+}
+.box-66-32-121{
+    background-color:rgb(66, 32, 121);
+   
+}
+.box-992b62 {
+    background-color:#992b62;
+   
+}
+.box-9ff8b0785 {
+    background-color:#ff8b0785;
+   
+}
+.box-0b3ee785 {
+    background-color:#0b3ee785;
+   
+}

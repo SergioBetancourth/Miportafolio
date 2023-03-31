@@ -12,33 +12,36 @@
 .box-style {
     width: 350px;
     height: 460px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(72, 89, 90);
     margin:0 auto;
     margin-top: 100px;
 
 
     }
     .product-box{
-        width: 250px;
+        width: 350px;
         height: 300px;
-        margin: 0 auto;
-        background-color:white;
+      background-color: transparent;
        
         
        
     }
     img {
-        margin-top: 20px;
+        margin-top: 80px;
+        margin-left: 30px;
+        background-color: rgb(146, 172, 173);
+        
+
     }
   
 
     .add-card-1{
-        margin-top: 100px;
+        margin-top: 30px;
         text-align: center;
-        padding-top: 25px;
+        padding-top: 20px;
         width: 100%;
         height: 60px;
-        background-color: rgb(39, 200, 164);
+        background-color: rgb(35, 49, 46);
    
     
     }
@@ -53,7 +56,7 @@
     }
     .product-text{
         text-align: center;
-        background-color: white;
+        background-color: transparent;
         
     }
     .product-text-span {
@@ -61,19 +64,28 @@
         font-size: 1.4em;
         font-weight: 900;
         font-family:'Times New Roman', Times, serif;
-        color:rgb(17, 17, 17);
+        color:rgb(51, 35, 35);
     }
     .text-description {
-        background-color: white;
-        color: rgb(32, 33, 36);
+        background-color: transparent;
+        color: rgb(53, 35, 35);
         font-size: .8em;
 
+    }
+    .price-text{
+        background-color: transparent;
+        color: rgb(49, 29, 29);
+        font-size: 2.1em;
+        font-weight: 900;
+        margin-top: 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
     p{
         font-size: 1.4;
         text-align: justify;
         color:rgb(255, 255, 254);
+        background-color: transparent;
    
 
     }

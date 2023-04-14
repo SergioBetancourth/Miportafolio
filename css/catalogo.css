@@ -1,21 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgba(255, 255, 255, 0.849);
+    background-color: transparent;
 }
 
 .main-box {
+    height: 100vh;
    
-    /*vh: view height */
-   /*  height: 100vh; */
-    
 }
 .star-style {
     color: rgba(255, 208, 0, 0.966);
     background-color: transparent;
     font-size: 12px;
 }
-.box-style {
+.box-style-box-1 {
     width: 350px;
     height: 460px;
     background-color: rgb(72, 89, 90);
@@ -25,6 +23,27 @@
 
 
     }
+    .box-style-box-2 {
+        width: 350px;
+        height: 460px;
+        background-color: rgb(72, 89, 90);
+        margin:0 auto;
+        margin-top: 100px;
+        
+        
+    
+    
+        }
+        .box-style-box-3 {
+            width: 350px;
+            height: 460px;
+            background-color: rgb(72, 89, 90);
+            margin:0 auto;
+            margin-top: 100px;
+            
+        
+        
+            }
     .product-box{
         width: 350px;
         height: 280px;

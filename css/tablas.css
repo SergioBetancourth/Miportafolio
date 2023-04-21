@@ -1,0 +1,68 @@
+
+.table-box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    background-color: rgb(255, 255, 255);
+}
+table{
+border-collapse: collapse;
+
+}
+
+th,td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+   
+}
+
+.th-basic {
+    background-color: #1174c4d8;
+    color: white;
+
+}
+.th-silver {
+    background-color: #abb5bd;
+    color: white;
+   
+
+}
+.th-gold {
+    background-color: rgba(218, 173, 23, 0.856);
+    color: white;
+    
+
+}
+
+
+.th-platino {
+    background-color: rgba(53, 52, 51, 0.856);
+    color: white;
+    border-top-right-radius: 20px;
+}
+
+.x-style {
+    color: red;
+}
+
+.th-canal {
+    background-color: rgba(218, 111, 23, 0.856);
+    color: white;
+    
+}
+.bg-color {
+ 
+    background-color: rgba(111, 25, 182, 0.705);
+    color: white;
+
+}
+.th-discovery-channel{
+    background-color: rgba(218, 111, 23, 0.856);
+    color: white;
+}
+
+.fondo-cuadro {
+    background-color: rgb(73, 116, 209);
+}

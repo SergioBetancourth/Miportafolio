@@ -66,3 +66,17 @@ th,td {
 .fondo-cuadro {
     background-color: rgb(73, 116, 209);
 }
+.th-paquete {
+    background-color: rgba(111, 25, 182, 0.705);
+    border-top-left-radius: 20px;
+    color: white;
+}
+.th-HBO-MAX {
+    background-color: rgba(111, 25, 182, 0.705);
+    border-bottom-left-radius: 20px;
+    color: white;
+}
+.cuadro-final {
+    background-color: rgb(73, 116, 209);
+    border-bottom-right-radius: 20px;
+}

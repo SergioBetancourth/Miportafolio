@@ -5,12 +5,11 @@
 }
 nav{
     width: 100%;
-    height: 80px;
+    height: 75px;
     background-color: #302e2e;
-    padding-left: 0px;
     border-bottom: 1px solid black;
-    margin-right: 0px;
-    
+    margin-left: 40px;
+    margin-right: 49px;
 }
 .maim-menu{
     list-style: none;

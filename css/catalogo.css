@@ -5,6 +5,10 @@
 }
 
 .main-box {
+<<<<<<< HEAD
+    height: 100vh;
+    
+=======
        
        
         height: 600vh;
@@ -21,6 +25,7 @@
     margin:0 auto;
     background-color: rgb(255, 255, 255)
     ;
+>>>>>>> b6a8ba04a08f959a8e0696a024698afded71b3a2
    
     }
  .box-1{

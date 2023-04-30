@@ -1,3 +1,8 @@
-h2 {
-    font-size: 2.5em;
+
+body {
+    background-image: url("fondo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }

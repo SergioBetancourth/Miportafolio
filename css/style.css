@@ -6,13 +6,11 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
-
 .container{
     width: 400px;
     height: 200px;
     position: relative;
     margin:0;
-  
 }
 .container img{
     width: 100%;
@@ -30,15 +28,14 @@ body {
 }
 .texto-titulo:hover{
 cursor:cell;
-color: rgb(255, 188, 2);
-font-size: 1.23em;
-text-shadow: 0 0 10px rgba(255, 255, 255, 0.514);
+ color: rgb(255, 188, 2);
+ font-size: 1.23em;
+ text-shadow: 0 0 10px rgba(255, 255, 255, 0.514);
 }
 .box img {
     width: 30%;
     height: 30%;
     border-radius: 20px;
-
 }
 .box ul{
    
@@ -50,28 +47,18 @@ text-shadow: 0 0 10px rgba(255, 255, 255, 0.514);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-shadow: 8px 7px 7px  rgb(0, 0, 0);
     list-style-image: url("hoja.png");
-    
-
-   
 }
-
-
-
 .texto-1{
-    color: rgb(8, 211, 52);
-font-size: 17px;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+ color: rgb(8, 211, 52);
+ font-size: 17px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ text-decoration:none;
 }
 .texto-1:hover{
-    cursor:pointer;
-color: rgb(255, 188, 2);
-
-
-text-shadow: 0 0 10px rgba(255, 255, 255, 0.514);
+ cursor:pointer;
+ color: rgb(255, 188, 2);
+ text-shadow: 0 0 10px rgba(255, 255, 255, 0.514);
 }
 .texto-0{
-    
-    font-size: 20px;
+ font-size: 20px;
 }
-color: rgb(5, 182, 5);

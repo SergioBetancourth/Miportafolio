@@ -2,11 +2,8 @@
     margin: 0;
     padding: 0;
 }
-.nav{
-    align-items: center;
-}
 .main-nav{
-    background-color: rgb(64,64,64);
+    background-color: rgb(7, 0, 0);
     height: 80px;
     width: 100%;
 }
@@ -17,6 +14,7 @@
     font-family: 'Baloo Bhai 2','sans-serif';
     font-style: normal;
     font-weight: 700;
+    text-align: center;
     
 }
 .item-style {
@@ -28,8 +26,7 @@
     cursor: pointer;
     border-radius: 40px;
     background-color: grey;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    font-size: 1em;
 }
 a {
     text-decoration: none;
@@ -39,8 +36,6 @@ a {
 a:hover {
     text-decoration: none;
     color: rgb(22, 21, 21);
-   
-
 }
 .menu-bar{
     display:none;
@@ -48,17 +43,24 @@ a:hover {
 }
 @media only screen and (max-width:1368px) {
 .main-menu{
-    display: none;
+    display: block;
+    height: 100vh;
+    background-color: rgb(64,64,64);
+    text-align: center;
+}
+.item-style{
+    display: block;
+    border-bottom: 1px solid rgb(64,64,64);
 }
 .menu-bar {
     display: inline-block;
     color: rgb(255, 255, 255);
     font-size: 3em;   di
-    
 }
 .menu-bar:hover{
     cursor: pointer;
 }
+
 }
 
 /* baloo-bhai-2-500 - latin */

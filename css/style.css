@@ -6,3 +6,65 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+.container{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    margin:0;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+}
+.container h1{
+    font-size: 1.2em;
+    color:rgb(240, 200, 21);
+    position: absolute;
+    top:45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 8px 7px 7px  rgb(0, 0, 0);
+}
+.container0{
+    width: 430px;
+    height: 430px;
+    position: relative;
+    margin:0;
+}
+.container0 img{
+    width: 100%;
+    height: 100%;
+}
+.container0 ul{
+    font-size: 1.2em;
+    color:rgb(240, 200, 21);
+    position: absolute;
+    top:45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 8px 7px 7px  rgb(0, 0, 0);
+    list-style-image:url(hoja.png);
+}
+.texto-titulo:hover{
+cursor:cell;
+ color: rgb(255, 188, 2);
+ font-size: 1.23em;
+ text-shadow: 0 0 10px rgba(255, 255, 255, 0.514);
+}
+
+.texto-1{
+    color: rgb(8, 211, 52);
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:none;
+   }
+   .texto-1:hover{
+    cursor:pointer;
+    color: rgb(255, 188, 2);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.514);
+   }
+   .texto-0{
+    font-size: 20px;
+   }

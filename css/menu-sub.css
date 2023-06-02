@@ -14,7 +14,7 @@ nav li {
     list-style: none;
     position: relative;
     text-align: center;
-    cursor:pointer
+    cursor: pointer;
 }
 nav li:hover{
     color: goldenrod;
@@ -36,10 +36,6 @@ li {
 }
 li:hover {
     background-color: rgba(24, 40, 92, 0.856) ;
-    cursor: pointer;
-}
-nav li {
-    position: relative;
     cursor: pointer;
 }
 nav li li {

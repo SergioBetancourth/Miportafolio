@@ -1,0 +1,30 @@
+*{display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100vh;
+}
+
+table{ 
+border-collapse: collapse; 
+width: 10em;
+
+} 
+th,td { 
+width: 10em;
+border: 1px solid black;
+
+
+} 
+.th-basic { 
+background-color: #1174c4d8; 
+color: white; 
+} 
+.th-silver { 
+background-color: #abb5bd; 
+color: white; 
+} 
+.th-gold { 
+background-color: rgba(218, 173, 23, 0.856); 
+color: white; 
+} 

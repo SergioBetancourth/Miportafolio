@@ -57,7 +57,7 @@
 .box-10{
     display: flex;
     justify-content: center;
-    align-items: flex-end;  
+    align-items: flex-end           ;  
 }
 .box-height{
     height: 500px;
@@ -70,6 +70,27 @@
     overflow-y: hidden;
     width: 70%;
     margin: 0 auto;
+}
+.box-a{
+    height: 100px;
+    background-color: rgb(221, 190, 52);
+    width: ;
+}
+.box-b{
+    height: 140px;
+    background-color: rgb(243, 141, 25);
+    width: ;
+}
+.box-c{
+    height: 180px;
+    background-color: rgb(226, 102, 19);
+    width: ;
+}
+.box-d{
+    height: 490px;
+    background-color: rgb(211, 62, 3);
+    width: ;
+    text-align: center;
 }
 .box-maim-wrap:hover{
 

@@ -73,3 +73,10 @@ header {
 .article-6 {
     grid-area: article-6;
 }
+.style-img-article{
+    height: 350px;
+}
+.style-texto-article{
+    line-height: 1.5em;
+    text-align: justify;
+}

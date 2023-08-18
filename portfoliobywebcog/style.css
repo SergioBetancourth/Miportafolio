@@ -306,7 +306,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #240da5 0%, #4438ee 100%);
 	opacity: 0.9;
 	z-index: -1;
 }
@@ -361,7 +361,7 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #2d15b3 0%, #280666 100%);
 	color: white;
 }
 #projects .project-info h1 {

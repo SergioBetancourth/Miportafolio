@@ -5,18 +5,17 @@
 }
 header{
     display: grid;
-    grid-template:"main-logo box-main-menu" 140px /
-                    1fr        1fr                
+    grid-template:"empty-left main-logo box-main-menu empty-left" auto /
+                      140px           1fr        1fr       50px;            
 }
 .main-logo {
     grid-area: main-logo;
 }
-.img-logo {
-    padding: 30px 0 0 100px;
+.main-logo {
+    padding-top: 40px;
 }
 .box-main-menu{
     grid-area:box-main-menu;
-    
 }
 .main-menu{
     height: 100%;
@@ -47,15 +46,72 @@ header{
     right: -950px;
 }
 .h1{
-    font-size: 4m;
+    font-size: 20em;
     font-family:Poppins, sans-serif;
-    font-weight: 500;
+    font-weight: 800;
 }
 .title-color{
     color: rgb(2,104,64);
     font-family: Poppins, sans-serif;
-    font-weight: 800;
+    font-weight: 900;
 }
+.main-content{
+    margin-top: 140px;
+    display: grid;
+    grid-template: "empty-left product-text empty-center   product-img         empty-rigth      social media" auto /
+                      140px       5fr            300px          4fr            50px              80px
+} 
+.product-text{
+      grid-area: product-text;
+}
+.product-img{
+      grid-area: product-img;
+      z-index: 10;
+      /* position: relative;
+      top: 100px;
+      left: 100px; */
+}
+.description-text {
+    margin-top: 30px;
+    color: rgb(2,104,64);
+    font-family: Poppins,sans-serif;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    letter-spacing: 0.5em;
+    font-weight: 500;
+
+}
+.button-learn {
+    width: 250px;
+    height: 70px;
+    border-radius: 15px;
+    background-color:rgb(2,104,64);
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    font-size:2em ;
+
+}
+.social-media{
+    grid-area:social-media;
+    z-index: 10;
+    font-size:2em;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap:40px;
+    margin-top: -100px;
+}
+.footer {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
 
 /* poppins-regular - latin */
 @font-face {

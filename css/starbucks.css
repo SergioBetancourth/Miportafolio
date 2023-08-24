@@ -1,24 +1,28 @@
+
 *{
     margin: 0;
     padding: 0;
     font-family:Poppins,sans-serif ;
+    
 }
 header{
     display: grid;
-    grid-template:"empty-left main-logo box-main-menu empty-left" auto /
-                      140px           1fr        1fr       50px;            
+    grid-template:"empty-left main-logo main-menu  empty-left" auto/
+                      140px     1fr        1fr          50px;            
 }
-.main-logo {
+.logo {
     grid-area: main-logo;
 }
 .main-logo {
-    padding-top: 40px;
-}
-.box-main-menu{
-    grid-area:box-main-menu;
+    padding-top: 10px;
+    padding-left: 150px;
+    
 }
 .main-menu{
-    height: 100%;
+    grid-area:main-menu;
+}
+.main-menu{
+    height: 10%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -46,9 +50,21 @@ header{
     right: -950px;
 }
 .h1{
-    font-size: 20em;
+    font-size: 45px;
     font-family:Poppins, sans-serif;
     font-weight: 800;
+    width: 300px;
+}
+.text-principal{
+    color: #000000;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.title-color{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
 }
 .title-color{
     color: rgb(2,104,64);
@@ -58,8 +74,8 @@ header{
 .main-content{
     margin-top: 140px;
     display: grid;
-    grid-template: "empty-left product-text empty-center   product-img         empty-rigth      social media" auto /
-                      140px       5fr            300px          4fr            50px              80px
+    grid-template: "empty-left product-text empty-center   product-img     empty-rigth      social media" auto /
+                      140px       5fr            300px          4fr          50px              80px
 } 
 .product-text{
       grid-area: product-text;
@@ -75,7 +91,7 @@ header{
     margin-top: 30px;
     color: rgb(2,104,64);
     font-family: Poppins,sans-serif;
-    font-size: 1.4em;
+    font-size: 130em;
     line-height: 1.4em;
     letter-spacing: 0.5em;
     font-weight: 500;
@@ -111,7 +127,7 @@ header{
     display: flex;
     justify-content: center;
     width: 100%;
-    gap: 40px;
+    gap: 20px;
     z-index: 10;
     
     }

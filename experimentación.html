@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/ex.css">
+  <style>
+    .book {
+      width: 200px;
+      height: 250px;
+      background-image: url('closed_book.png');
+      background-size: cover;
+      cursor: pointer;
+    }
+    
+    .opened {
+      background-image: url('opened_book.png');
+    }
+    
+    .content {
+      display: none;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    
+    .opened .content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="book" onclick="openBook()">
+    <div class="content">
+      <p>¡Texto dentro del libro!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

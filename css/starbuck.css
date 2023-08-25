@@ -38,7 +38,11 @@ header ul li{
 }
 header ul li a{ 
     display: inline-block;
+<<<<<<< HEAD
     color: #000000;
+=======
+    color: #333;
+>>>>>>> d45285f6aa353613aeb9584339fe23956edb6927
     font-weight: 400;
     margin-left: 40px;
     text-decoration: none;
@@ -55,7 +59,11 @@ header ul li a{
     max-width: 600px;
 }
 .textBox h2{
+<<<<<<< HEAD
     color: #000000;
+=======
+    color: #333;
+>>>>>>> d45285f6aa353613aeb9584339fe23956edb6927
     font-size: 4em;
     line-height: 1.4em;
     font-weight: 500;
@@ -66,16 +74,28 @@ header ul li a{
     font-weight: 900;
 }
 .textBox p{
+<<<<<<< HEAD
     color: #000000;
+=======
+    color: #333;
+>>>>>>> d45285f6aa353613aeb9584339fe23956edb6927
 }
 .textBox a{
     display: inline-block;
     margin-top: 20px;
+<<<<<<< HEAD
     padding: 10px 25px;
     background: #017143;
     color: #fff;
     border-radius: 40px;
     font-weight: 700;
+=======
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+>>>>>>> d45285f6aa353613aeb9584339fe23956edb6927
     letter-spacing: 1px;
     text-decoration: none;
 }
@@ -91,7 +111,11 @@ header ul li a{
 }
 .thumb{
     position: absolute;
+<<<<<<< HEAD
     left: 45%;
+=======
+    left: 50%;
+>>>>>>> d45285f6aa353613aeb9584339fe23956edb6927
     bottom: 20px;
     transform: translate(-50%);
     display: flex;
@@ -99,7 +123,11 @@ header ul li a{
 .thumb li{
     list-style: none;
     display: inline-block;
+<<<<<<< HEAD
     margin: 0 15px;
+=======
+    margin: 0 20px;
+>>>>>>> d45285f6aa353613aeb9584339fe23956edb6927
     cursor: pointer;
     transition: 0.6s;
 }
@@ -112,7 +140,11 @@ header ul li a{
 .sci{
     position: relative;
     top: 50%;
+<<<<<<< HEAD
     right: -80px;
+=======
+    right: 30px;
+>>>>>>> d45285f6aa353613aeb9584339fe23956edb6927
     transform: translateY(-50%);
     display: flex;
     justify-content: center;
@@ -129,6 +161,7 @@ header ul li a{
     filter: invert(1);
 }
 .circle{
+<<<<<<< HEAD
     position: absolute;
     top: 0;
     left: 0;
@@ -136,4 +169,16 @@ header ul li a{
     height: 100%;
     background: #017143;
     clip-path: circle(600px at right 800px);
+=======
+    background-color: rgb(2,104,64);
+    width: 1800px;
+    height: 1800px;
+    border-radius: 2000px;
+    position: fixed;
+    top: 280px;
+    right: -950px;
+}
+.ice-green {
+    width: 20px;
+>>>>>>> d45285f6aa353613aeb9584339fe23956edb6927
 }

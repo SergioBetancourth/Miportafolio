@@ -1,142 +1,162 @@
-
-*{
-    margin: 0;
+* {
     padding: 0;
-    font-family:Poppins,sans-serif ;
-    
+    margin: 0;
+    font-family: Poppins, sans-serif;
 }
-header{
-    display: grid;
-    grid-template:"empty-left main-logo main-menu  empty-left" auto/
-                      140px     1fr        1fr          50px;            
-}
-.logo {
-    grid-area: main-logo;
+header {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  z-index: 15;
+  width: 100%;
+  display: grid;
+  grid-template: "empty-left main-logo box-main-menu empty-right" 140px /
+                    140px       1fr       2fr           50px;   
 }
 .main-logo {
-    padding-top: 10px;
-    padding-left: 150px;
-    
+    grid-area: main-logo;
 }
-.main-menu{
-    grid-area:main-menu;
+.img-logo {
+    padding-top: 40px;
 }
-.main-menu{
-    height: 10%;
+.box-main-menu {
+    grid-area: box-main-menu;
+}
+.main-menu {
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    margin-left: 150px;
 }
-.main-menu > li > a{
-    color:rgb(0, 0, 0);
+.main-menu > li > a {
+    color: rgb(64,64,64,.9);
     text-decoration: none;
     display: block;
     margin: 0 30px;
-    font-size:1.3em;
-    margin-left: 600;
-    font-family: Poppins, sams-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
 }
-
 .main-circle {
-    background-color: rgb(2,104,64);
     width: 1800px;
     height: 1800px;
-    border-radius: 2000px;
+    border-radius: 900px;
     position: fixed;
     top: 280px;
     right: -950px;
+    z-index: 5;
 }
-.h1{
-    font-size: 45px;
-    font-family:Poppins, sans-serif;
-    font-weight: 800;
-    width: 300px;
+.main-circle-green {
+  background-color:rgb(2,104,64);
 }
-.text-principal{
-    color: #000000;
-    font-size: 4em;
-    line-height: 1.4em;
+.main-circle-light-pink {
+  background-color: rgb(230,112,147);
+}
+.main-circle-dark-pink {
+  background-color: rgb(194,73,159);
+}
+h1 {
+    font-size: 5em;
+    font-family: Poppins, sans-serif;
     font-weight: 500;
 }
-.title-color{
-    color: #017143;
-    font-size: 1.2em;
-    font-weight: 900;
-}
-.title-color{
+.title-color {
     color: rgb(2,104,64);
     font-family: Poppins, sans-serif;
     font-weight: 900;
+    font-size: 1.3em;
 }
-.main-content{
+.main-content {
     margin-top: 140px;
     display: grid;
-    grid-template: "empty-left product-text empty-center   product-img     empty-rigth      social media" auto /
-                      140px       5fr            300px          4fr          50px              80px
-} 
-.product-text{
-      grid-area: product-text;
+    grid-template: "empty-left product-text empty-center product-img social-media" / 
+                    140px       5fr         300px         4fr        80px;
 }
-.product-img{
-      grid-area: product-img;
-      z-index: 10;
-      /* position: relative;
-      top: 100px;
-      left: 100px; */
+.product-text {
+    grid-area: product-text;
 }
 .description-text {
     margin-top: 30px;
-    color: rgb(2,104,64);
-    font-family: Poppins,sans-serif;
-    font-size: 130em;
-    line-height: 1.4em;
-    letter-spacing: 0.5em;
+    color: rgb(96,96,93);
+    font-family: Poppins, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
     font-weight: 500;
-
 }
 .button-learn {
-    width: 250px;
-    height: 70px;
-    border-radius: 15px;
-    background-color:rgb(2,104,64);
+    width: 200px;
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(2,104,64);
     color: white;
     font-weight: 700;
     text-align: center;
     border: none;
-    font-size:2em ;
-
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
 }
-.social-media{
-    grid-area:social-media;
+.product-img {
+    grid-area: product-img;
     z-index: 10;
-    font-size:2em;
+    /* position: relative;
+    top: 100px;
+    left: 150px; */
+}
+.social-media {
+    position: fixed;
+    right: 0;
+    top: 350px;
+    grid-area: social-media;
+    z-index: 10;
+    font-size: 2em;
     color: white;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    gap:40px;
-    margin-top: -100px;
+    gap: 40px;
+    /* margin-top: -100px; */
 }
-.footer {
-    position:fixed;
+footer {
     bottom: 20px;
     display: flex;
     justify-content: center;
     width: 100%;
-    gap: 20px;
+    gap: 40px;
     z-index: 10;
-    
-    }
-    .style-img-mini {
-        z-index: 20;
-    }
-
-
+}
+.style-img-mini {
+    z-index: 20;
+    position: relative;
+    transition: all 600ms;
+    top: 0;
+}
+.style-img-mini:hover {
+  cursor: pointer;
+}
+.mini-green:hover {
+  top: -30px;
+}
+.mini-light-pink:hover {
+  top: -30px;
+}
+.mini-dark-pink:hover {
+  top: -30px;
+}
+/* Fonts */
 /* poppins-regular - latin */
+/* poppins-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins-v20-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Poppins';
@@ -152,13 +172,37 @@ header{
     font-weight: 500;
     src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-  /* poppins-500italic - latin */
+  /* poppins-600 - latin */
   @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Poppins';
-    font-style: italic;
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v20-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 500;
-    src: url('../fonts/poppins-v20-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* poppins-600 - latin */
   @font-face {
@@ -168,36 +212,13 @@ header{
     font-weight: 600;
     src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+  /* poppins-700 - latin */
   @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     src: url('../fonts/poppins-v20-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  /* poppins-700italic - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Poppins';
-    font-style: italic;
-    font-weight: 700;
-    src: url('../fonts/poppins-v20-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  /* poppins-800 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 800;
-    src: url('../fonts/poppins-v20-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  /* poppins-800italic - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Poppins';
-    font-style: italic;
-    font-weight: 800;
-    src: url('../fonts/poppins-v20-latin-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* poppins-900 - latin */
   @font-face {
@@ -206,12 +227,4 @@ header{
     font-style: normal;
     font-weight: 900;
     src: url('../fonts/poppins-v20-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  /* poppins-900italic - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Poppins';
-    font-style: italic;
-    font-weight: 900;
-    src: url('../fonts/poppins-v20-latin-900italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }

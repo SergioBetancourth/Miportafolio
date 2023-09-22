@@ -119,12 +119,13 @@
     z-index: 10;
 }
 .box-articles {
+    margin-top: 200px;
     grid-area: box-articles;
     z-index: 15;
     /* position: relative; */
     top: -250px;
     display: grid;
-    grid-template:  "empty-left          box-main-img   box-main-img   box-main-img   box-main-img   empty-right" 580px
+    grid-template:  "empty-left          box-articles   box-articles   box-articles   box-articles   empty-right" 580px
                     "empty-left          article-1      article-2      article-3      article-4      empty-right "  /
                     "empty-right         article-1      article-2      article-3      article-4      empty-right " 
                      minmax(10px, 1fr)   300px          300px          300px          300px          minmax(10px, 1fr);  

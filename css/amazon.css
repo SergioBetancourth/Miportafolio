@@ -121,20 +121,23 @@
 .box-articles {
     grid-area: box-articles;
     z-index: 15;
-    position: relative;
+    /* position: relative; */
     top: -250px;
-    /* display: grid; */
-   /*  grid-template-columns: repeat(4, 350px); */
-   /*  display: flex;
-    flex-direction: row; */
- /*    width: 100%;
-    overflow: hidden; */
-    /* flex-wrap: no-wrap; */
+    display: grid;
+    grid-template:  "empty-left          box-main-img   box-main-img   box-main-img   box-main-img   empty-right" 580px
+                    "empty-left          article-1      article-2      article-3      article-4      empty-right "  /
+                    "empty-right         article-1      article-2      article-3      article-4      empty-right " 
+                     minmax(10px, 1fr)   300px          300px          300px          300px          minmax(10px, 1fr);  
+    display: flex;
+   /*  flex-direction: row; */
+    width: 100%;
+    /* overflow: hidden;
+    flex-wrap: no-wrap; */
 }
 .article{
     width: 100%;
     height: 440px;
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(255, 255, 255);
 }
 .article-1{
     grid-area: article-1;

@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+/* <<<<<<<<<<<<<<<<<<HEADER  de busqueda>>>>>>>>>>>>>>>>>> */
+.header{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(2, 2, 29);
+  display: grid;
+  grid-template: "box-logo  input-search       customer-menu" 60px /
+                  250px     minmax(800px, 2fr) 400px;
+}
+.box-logo{
+  grid-area: box-logo;
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 100%;
+  margin-left: 15px;
+}
+.input-search {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 3px;
+  font-size: 1.1rem;
+}
+
+.customer-menu {
+  grid-area: customer-menu;
+  background-color:  rgb(2, 2, 29);
+  display: inline-block;
+}
+.customer-menu:hover {
+  cursor: pointer;
+}
+.deliver{
+ margin-left: 15px;
+}
+.box-logo:hover {
+  cursor: pointer;
+}
+
+.ENFLAG {
+  width: 22px;
+}
+.flag{
+  margin-top: 20px;
+}
+.EN{
+  font-size:13px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+.CART{
+  width: 40px;
+  
+}
+/* <<<<<<<<<<<<<<HEADER  de busqueda  final>>>>>>>>>>>>>>*/
+/* <<<<<<<<<<<<header de servicios>>>>>>>>>>>>>  */
+.text-customer {
+  margin-left: 100px;
+  color: white;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  
+}
+.tex-cu {
+  margin-top: 5px;
+}
+.sell-menu {
+  width: 100%px;
+  height: 40px;
+  background-color: rgb(35, 47, 62);
+  
+}
+
+.text-sell{
+  color: white;
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+}
+.text-sell:hover{
+  cursor: pointer;
+}
+/* <<<<<<<<<<<<<header de servicios>>>>>>>>>>>>>>  */
+/* <<<<<<<<<<<<<Carousel inicio>>>>>>>>>>>>>>  */
+.box-carousel {
+  width: 400%;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s;
+
+}
+.box-carousel-1 {
+  left: 0;
+}
+.box-carousel-2 {
+  left: -100%;
+}
+.box-carousel-3 {
+  left: -200%;
+}
+.box-carousel-4 {
+  left: -300%;
+}
+.carousel {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: calc(100vh - 95px);
+}
+.box-img-carousel {
+  height: calc(100vh - 95px);
+  width: 25%;
+}
+.img-carousel {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.icon-chevron-left, .icon-chevron-right {
+  font-size: 3em;
+  color: #fff;
+  position: fixed;
+  top: 500px;
+}
+.icon-chevron-left {
+  left: 20px;
+}
+.icon-chevron-right {
+  right: 20px;
+}
+.box-card-1 {
+  height: 500px;
+  /* background-color: blue; */
+}
+/* <<<<<<<<<<<<<Carousel inicio final>>>>>>>>>>>>>>  */

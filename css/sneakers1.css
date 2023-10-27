@@ -73,12 +73,14 @@ header {
 .icon-carrito {
     width: 20px;
     height: 20px;
-    padding-right: 20px;
+  
+
 }
 .foto {
     width: 30px;
     height: 30px;
     border-radius: 15px;
+    margin-left:20px ;
 }
 .box-left {
     grid-area: box-left;

@@ -20,19 +20,6 @@ let valorUnitario = 180000;
 mainImg.addEventListener("click", function() {
     boxImgFixed.classList.remove("box-img-fixed-hidden");
     boxImgFixed.classList.add("box-img-fixed");
-    /* mainImgFixed1.classList.remove(""); */
-/*         mainImgFixed1.classList.add("img-hidden");
-        mainImgFixed2.classList.remove("img-hidden");
-    }
-    else if (!mainImgFixed2.classList.contains("img-hidden")) {
-        mainImgFixed2.classList.add("img-hidden");
-        mainImgFixed3.classList.remove("img-hidden");
-    }
-    else if (!mainImgFixed3.classList.contains("img-hidden")) {
-        mainImgFixed3.classList.add("img-hidden");
-        mainImgFixed4.classList.remove("img-hidden");
-    } */
-    
 });
 iconRight.addEventListener("click", function() {
     if (!mainImgFixed1.classList.contains("img-hidden")) {
